@@ -6,9 +6,23 @@ body {
   background: url("../images/concrete_seamless.png");
 }
 
+/* make responsive */
 * {
   box-sizing: border-box;
 }
+
+
+/* columns 
+.col-header, .col-footer{
+  width: 100%;
+}
+.col-main-sec{
+  width: 670%;
+}
+.col-side{
+  width: 290%;
+}
+*/
 
 /* general */
 
@@ -237,23 +251,6 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-
-/* make responsive */
-* {
-    box-sizing: border-box;
-}
-
-/* columns */
-.col-header, .col-footer{
-  width: 100%;
-}
-.col-main{
-  width: 60.70%;
-}
-.col-side{
-  width: 30.21%;
-}
-
 
 
 /* for desktops */
